@@ -36,17 +36,7 @@ html {
 	margin-top: 25%;
 } 
 
-#box1 > .flip, #box3 > .flip, #box2 > .flip, #box4 > .flip {
-	text-align: center;
-	margin-right: 130px;
-	color: black;
-	font-size: 20px;
-	margin-top: -200px;
-} 
 
-#box2 > .flip, #box4 > .flip {
-	margin-left: 200px;
-}
 
 #earthquake, #tsunami {
 	margin-right: 130px;
