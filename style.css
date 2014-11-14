@@ -1,0 +1,265 @@
+/** {
+	outline: 1px solid red;
+}*/
+
+html, body { 
+	height: 100%; 
+	padding: 0; 
+	margin: 0; 
+}
+
+html { 
+	-webkit-font-smoothing: antialiased; 
+}
+
+/* Styling */
+
+
+.quadrant { 
+	width: 50%; 
+	height: 50%; 
+	float: left; 
+	background-color: black;
+	transition: all 0.7s ease;
+	color: white;
+}
+
+.quadrant:hover {
+	transition: all 0.7s ease;
+	background-color: white;
+	color: black;
+} 
+
+.subtitle {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 25%;
+} 
+
+#box1 > .flip, #box3 > .flip, #box2 > .flip, #box4 > .flip {
+	text-align: center;
+	margin-right: 130px;
+	color: black;
+	font-size: 20px;
+	margin-top: -200px;
+} 
+
+#box2 > .flip, #box4 > .flip {
+	margin-left: 200px;
+}
+
+#earthquake, #tsunami {
+	margin-right: 130px;
+}
+
+#volcano, #landslide {
+	margin-left: 100px;
+}
+
+/* Circle - Video frames */
+
+.cover {
+	height: 300px;
+	width: 300px;
+	border-radius: 300px;
+	background-color: black;
+	position: absolute;
+	margin-left: 39%;
+	margin-top: 17%;
+	border: 3px solid hsla(261, 100%, 50%, 1);
+}
+
+#title, #title2 {
+	color: white;
+	text-align: center;
+	font-size: 26px;
+	margin-top: 120px;
+}
+
+#title2 {
+	display: none;
+	line-height: 50px;
+}
+
+/* Earthquake Content */
+
+#eqSp, #eqEn {
+	display: none;
+	position: absolute;
+	width: 30%;
+	height: 38.5%;
+	padding: 10px;
+	margin-left: 45px;
+	margin-top: 40px;
+	border: 3px solid black;
+	border-radius: 5px;
+	font-size: 22px;
+	color: black;
+	background-color: white;
+}
+
+#eqEn {
+	display: none;
+	height: 33%;
+}
+
+#box1.white {
+	background-color: white;
+}
+
+#box2.white {
+	background: url(images/eqgraphic.gif) no-repeat;
+	background-size: 80% 80%;
+}
+
+#box3.white {
+	background: url(images/earthquake.jpg);
+	background-size: cover;
+}
+
+#eqVideo {
+	position: relative;
+	display: none;
+}
+
+/* Volcano Content */
+
+#volSp, #volEn {
+	display: none;
+	position: absolute;
+	width: 30%;
+	height: 45.5%;
+	padding: 10px;
+	margin-left: -650px;
+	margin-top: 10px;
+	border: 3px solid black;
+	border-radius: 5px;
+	font-size: 22px;
+	color: black;
+	background-color: white;
+}
+
+#volEn {
+	display: none;
+	height: 35%;
+	margin-top: 30px;
+}
+
+#box1.vol {
+	background-color: white;
+}
+
+#box2.vol {
+	background: url(images/volgraphic.jpg);
+	background-size: cover;
+}
+
+#box3.vol {
+	background: url(images/volcano.jpg);
+	background-size: cover;
+}
+
+#volVideo {
+	position: relative;
+	display: none;
+}
+
+/* Tsunami Content */
+
+#tsuSp, #tsuEn {
+	display: none;
+	position: absolute;
+	width: 30%;
+	height: 37%;
+	padding: 10px;
+	margin-left: 75px;
+	margin-top: -370px;
+	border: 3px solid black;
+	border-radius: 5px;
+	font-size: 22px;
+	color: black;
+	background-color: white;
+}
+
+#tsuEn {
+	display: none;
+	height: 33%;
+}
+
+#box1.tsu {
+	background-color: white;
+}
+
+#box2.tsu {
+	background: url(images/tsugraphic.jpg);
+	background-size: cover;
+}
+
+#box3.tsu {
+	background: url(images/tsunami.jpg);
+	background-size: cover;
+}
+
+#tsuVideo {
+	position: relative;
+	display: none;
+}
+
+/* Landslide Content */
+
+#lsSp, #lsEn {
+	display: none;
+	position: absolute;
+	width: 30%;
+	height: 40%;
+	padding: 10px;
+	margin-left: -645px;
+	margin-top: -370px;
+	border: 3px solid black;
+	border-radius: 5px;
+	font-size: 22px;
+	color: black;
+	background-color: white;
+}
+
+#lsEn {
+	display: none;
+	height: 40%;
+}
+
+#box1.ls {
+	background-color: white;
+}
+
+#box2.ls {
+	background: url(images/lsgraphic.jpg);
+	background-size: cover;
+}
+
+#box3.ls {
+	background: url(images/landslide.jpg);
+	background-size: cover;
+}
+
+#lsVideo {
+	position: relative;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
