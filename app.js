@@ -6,14 +6,12 @@ $(document).ready(function() {
 		$("#earthquake, #volcano, #earthquake, #tsunami, #landslide, #title").hide();
 		$("#eqSp, #eqVideo, #title2").show();
 		$("#box1, #box2, #box3").addClass("white");
-		$("#box2, #box3, #box4").off("click");
 	});
 
 	$(".cover").click(function(){
 		$("#eqSp, #eqEn, #eqVideo, #title2").hide();
 		$("#volcano, #earthquake, #tsunami, #landslide, #title").show();
 		$("#box1, #box2, #box3, .cover").removeClass("white");
-		$("#box2, #box3, #box4").on("click");
 	});
 
 	$("#eqSp").click(function(){
@@ -32,14 +30,12 @@ $(document).ready(function() {
 		$("#earthquake, #volcano, #earthquake, #tsunami, #landslide, #title").hide();
 		$("#volSp, #volVideo, #title2").show();
 		$("#box1, #box2, #box3").addClass("vol");
-		$("#box1, #box3, #box4").off("click");
 	});
 
 	$(".cover").click(function(){
 		$("#volSp, #volEn, #volPic, #volVideo, #title2").hide();
 		$("#volcano, #earthquake, #tsunami, #box4, #landslide, #title").show();
 		$("#box1, #box2, #box3, .cover").removeClass("vol");
-		$("#box1, #box3, #box4").on("click");
 	});
 
 	$("#volSp").click(function(){
@@ -58,14 +54,12 @@ $(document).ready(function() {
 		$("#earthquake, #volcano, #earthquake, #tsunami, #landslide, #title").hide();
 		$("#tsuSp, #tsuVideo, #title2").show();
 		$("#box1, #box2, #box3").addClass("tsu");
-		$("#box1, #box2, #box4").off("click");
 	});
 
 	$(".cover").click(function(){
 		$("#tsuSp, #tsuEn, #tsuPic, #tsuVideo, #title2").hide();
 		$("#volcano, #earthquake, #tsunami, #box4, #landslide, #title").show();
 		$("#box1, #box2, #box3, .cover").removeClass("tsu");
-		$("#box1, #box2, #box4").on("click");
 	});
 
 	$("#tsuSp").click(function(){
@@ -84,14 +78,12 @@ $(document).ready(function() {
 		$("#earthquake, #volcano, #earthquake, #tsunami, #landslide, #title").hide();
 		$("#lsSp, #lsVideo, #title2").show();
 		$("#box1, #box2, #box3").addClass("ls");
-		$("#box1, #box3, #box2").off("click");
 	});
 
 	$(".cover").click(function(){
 		$("#lsSp, #lsEn, #lsPic, #lsVideo, #title2").hide();
 		$("#volcano, #earthquake, #tsunami, #box4, #landslide, #title").show();
 		$("#box1, #box2, #box3, .cover").removeClass("ls");
-		$("#box1, #box3, #box2").bind("click");
 	});
 
 	$("#lsSp").click(function(){
